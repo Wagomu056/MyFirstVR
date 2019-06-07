@@ -52,5 +52,6 @@ Logs
 Packages
 Temp
 Oculus
+BrokenVEctor
 *.csproj
 *.sln
