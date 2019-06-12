@@ -51,7 +51,10 @@ Library
 Logs
 Packages
 Temp
+obj
 Oculus
 BrokenVEctor
+Polygonal Particles
 *.csproj
+*.cache
 *.sln
