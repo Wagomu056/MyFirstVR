@@ -14,7 +14,7 @@ public class CrouchByInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.One) || Input.GetKeyDown(KeyCode.LeftShift))
+        if (OVRInput.GetDown(OVRInput.Button.Two) || Input.GetKeyDown(KeyCode.LeftShift))
         {
             stance = (stance == StanceType.Stand) ? StanceType.Crouch: StanceType.Stand;
 
